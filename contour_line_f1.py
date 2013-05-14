@@ -15,7 +15,4 @@ title('Contour Plot')
 xlabel('x (cm)')
 ylabel('y (cm)')
 
-# levels = [0.0, 0.5, 1, 1.5]
-# CP3 = contour(X, Y, Z, levels, colors='k')
-# clabel(CP3, colors = 'k', fmt = '%2.1f', fontsize=14)
-show()
+savefig("f1.png")
